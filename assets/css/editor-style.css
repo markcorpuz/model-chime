@@ -1,7 +1,25 @@
 /* SETUP CHILD | 1.0.0 | 210615 | assets/scss/editor-style.scss
 ---------------------------------------------------------------------------------------------------- */
-/*  SETUP-CHILD | 1.0.0 | 210615 | setup-child/fonts/setup-child-100/fontface.scss
+/* MODEL-CHIME | 1.0.0 | 210616 | assets/scss/partials/fontface.scss
 ---------------------------------------------------------------------------------------------------- */
+/* circular-pro-500 */
+@font-face {
+  font-family: "Circular Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+  src: url("../fonts/lineto-circular-pro-book.eot");
+  src: local("Circular Pro Book"), local("CircularPro-Book"), url("../fonts/lineto-circular-pro-book.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-pro-book.woff2") format("woff2"), url("../fonts/lineto-circular-pro-book.woff") format("woff");
+}
+/* circular-pro-700 */
+@font-face {
+  font-family: "Circular Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: url("../fonts/lineto-circular-pro-bold.eot");
+  src: local('"Circular Pro Bold"'), local("CircularPro-Bold"), url("../fonts/lineto-circular-pro-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-pro-bold.woff2") format("woff2"), url("../fonts/lineto-circular-pro-bold.woff") format("woff");
+}
 /* rubik-300 - latin */
 @font-face {
   font-family: "Rubik";
@@ -142,6 +160,10 @@
   font-weight: 700;
   src: local(""), url("../fonts/eb-garamond-v15-latin-700italic.woff2") format("woff2"), url("../fonts/eb-garamond-v15-latin-700italic.woff") format("woff");
 }
+.font-circular {
+  font-family: "Circular Pro", serif;
+}
+
 .font-rubik {
   font-family: "Rubik", sans-serif;
 }
@@ -158,7 +180,7 @@
   font-family: serif;
 }
 
-/* SETUP CHILD | 1.0.0 | 210615 | assets/scss/partials/base.scss
+/* MODEL-CHIME | 1.0.0 | 210616 | assets/scss/partials/base.scss
 ---------------------------------------------------------------------------------------------------- */
 /**
  * Brand Color
@@ -228,7 +250,7 @@ a svg, a {
 --------------------------------------------- */
 body {
   color: #424242;
-  font-family: "Rubik", Arial, sans-serif;
+  font-family: "Circular Pro", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.55;
@@ -316,7 +338,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", Arial, sans-serif;
+  font-family: "Circular Pro", sans-serif;
   font-weight: 400;
   margin: 0 0 16px;
 }
@@ -1117,7 +1139,7 @@ div.wpforms-container.one-line:after {
 ---------------------------------------------------------------------------------------------------- */
 body, p {
   color: #424242;
-  font-family: "Rubik", Arial, sans-serif;
+  font-family: "Circular Pro", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.55;

@@ -1,4 +1,4 @@
-/*  SETUP-CHILD | 1.0.0 | 210615 | setup-child/fonts/setup-child-100/fontface.scss
+/* MODEL-CHIME | 1.0.0 | 210616 | assets/scss/partials/fontface.scss
 ---------------------------------------------------------------------------------------------------- */
 
 // -------------------------------------
@@ -6,6 +6,31 @@
 
 // -------------------------------------
 // EXTEND
+
+/* circular-pro-500 */
+@font-face {
+    font-family: "Circular Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-display: fallback;
+    src: url('../fonts/lineto-circular-pro-book.eot');
+    src: local("Circular Pro Book"), local("CircularPro-Book"),
+        url('../fonts/lineto-circular-pro-book.eot?#iefix') format("embedded-opentype"),
+        url('../fonts/lineto-circular-pro-book.woff2') format("woff2"),
+        url('../fonts/lineto-circular-pro-book.woff') format("woff");
+}
+/* circular-pro-700 */
+@font-face {
+    font-family: "Circular Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: url('../fonts/lineto-circular-pro-bold.eot');
+    src: local('"Circular Pro Bold"'), local("CircularPro-Bold"), 
+        url('../fonts/lineto-circular-pro-bold.eot?#iefix') format("embedded-opentype"),
+        url('../fonts/lineto-circular-pro-bold.woff2') format("woff2"),
+        url('../fonts/lineto-circular-pro-bold.woff') format("woff");
+}
 
 /* rubik-300 - latin */
 @font-face {
@@ -279,6 +304,10 @@
 
 // -------------------------------------
 // SELECTORS
+
+.font-circular {
+  font-family: "Circular Pro", serif;
+}
 
 .font-rubik {
   font-family: "Rubik", sans-serif;
