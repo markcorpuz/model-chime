@@ -1,4 +1,4 @@
-/* SETUP CHILD | 1.0.0 | 210210 | assets/scss/partials/layout.scss
+/* MODEL-CHIME | 1.0.0 | 210622 | assets/scss/partials/layout.scss
 ---------------------------------------------------------------------------------------------------- */
 
 /* Box Sizing
@@ -55,7 +55,7 @@ $percent-content: $content-width * ((100% - $percent-100) / 100%);
 	}
 
 	.archive & {
-		max-width: map-get( $breakpoints, 'large' );
+		max-width: map-get( $breakpoints, 'medium' );
 	}
 }
 
