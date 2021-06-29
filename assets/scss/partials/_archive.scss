@@ -13,16 +13,12 @@
 			margin-bottom: 48px;
 		}
 
-		@include media(">smaller") {
+		@include media(">small") {
 			@include columns(2);
 		}
 
-		@include media(">small") {
+		@include media(">=tablet") {
 			@include columns(3);
-		}
-
-		@include media(">=medium") {
-			@include columns(4);
 		}
 
 	}
